@@ -26,10 +26,10 @@ p {
     text-align: center;
 }
 
-.bg-image1 {
+#bg-image1 {
     position: absolute;
     background-position: left;
-    opacity: 0.8;
+    opacity: 0.5;
     z-index: -1;
     background-size: cover;
     width: 30%;
@@ -42,7 +42,7 @@ p {
 .main-image {
     position: absolute;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.5;
     z-index: -1;
     background-size: cover;
     width: 33%;
@@ -55,7 +55,7 @@ p {
 .bg-image2 {
     position: absolute;
     background-position: right;
-    opacity: 0.8;
+    opacity: 0.5;
     z-index: -1;
     background-size: cover;
     width: 33%;
@@ -65,9 +65,8 @@ p {
 
 
 .header div{
- display: flex;
- justify-content: space-around;
- align-items: baseline;
+ display: grid;
+ grid
  
 }
 
@@ -90,4 +89,6 @@ display: grid;
 .carouselControls {
     align-content: center;
     margin-left: 33em;
+
 }
+
