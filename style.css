@@ -26,17 +26,9 @@ p {
     text-align: center;
 }
 
-#bg-image1 {
-    position: absolute;
-    background-position: left;
-    opacity: 0.5;
-    z-index: -1;
-    background-size: cover;
-    width: 30%;
-    height:100px;
-    padding-top: 3.5em;
-    padding-right: 8em;
-     
+#bg-image {
+    height: 700px;
+    width: 60%;
 }
 
 .main-image {
@@ -64,31 +56,49 @@ p {
 }
 
 
-.header div{
- display: grid;
- grid
- 
+
+.intro {
+    padding-top: 3em;
+    padding-bottom: 3em; 
+    background-color: brown;
+    color: rgb(208, 234, 235);
+    font-size: 1.5em;
+    font-weight: bolder;
 }
 
 
+.buy-product{
 
-.intro p {
-    padding-top: 28em;
-}
+display: inline-grid;
+grid-template-columns: 2fr 2fr 2fr 2fr;
+align-content: center;
+justify-content: baseline;
 
-.producting img {
     
 }
-.buy{
 
-display: grid;
-
-    
-}
-
-.carouselControls {
+.product-detail {
+    font-size: 1.3em;
     align-content: center;
-    margin-left: 33em;
+    padding-top: 9em;
+    font-weight: bold;
+}
 
+.button {
+    padding-left: 6em;
+    
+}
+
+.product img {
+    border: 1em black;
+}
+
+.foot {
+    background-color: darkgoldenrod;
+    padding: 3em;
+    display: grid;
+    align-content: stretch;
+    grid-template-columns: [first] 50% [line2] 900px [line3] auto [col4-start] 900px [five] 50% [end];
+    justify-content:;
 }
 
