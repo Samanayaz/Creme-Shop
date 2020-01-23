@@ -1,7 +1,7 @@
 body {
     align-items: center;
-    padding-left: 13em;
-    padding-right: 13em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 h1 {
@@ -27,14 +27,14 @@ p {
 }
 
 #bg-image {
-    height: 700px;
+    height: 400px;
     width: 60%;
 }
 
 .main-image {
     position: absolute;
     background-position: center;
-    opacity: 0.5;
+    opacity: 0.7;
     z-index: -1;
     background-size: cover;
     width: 33%;
@@ -44,35 +44,24 @@ p {
 }
 
 
-.bg-image2 {
-    position: absolute;
-    background-position: right;
-    opacity: 0.5;
-    z-index: -1;
-    background-size: cover;
-    width: 33%;
-    height:300px;
-    padding-left: 60em;;
-}
-
-
 
 .intro {
-    padding-top: 3em;
-    padding-bottom: 3em; 
+    padding-top: 1em;
+    padding-bottom: 1em; 
     background-color: brown;
     color: rgb(208, 234, 235);
-    font-size: 1.5em;
+    font-size: 0.7em;
     font-weight: bolder;
 }
 
 
 .buy-product{
 
-display: inline-grid;
-grid-template-columns: 2fr 2fr 2fr 2fr;
-align-content: center;
-justify-content: baseline;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-content: space-between;
+justify-content: last baseline;
+gap = 4px;
 
     
 }
@@ -80,7 +69,7 @@ justify-content: baseline;
 .product-detail {
     font-size: 1.3em;
     align-content: center;
-    padding-top: 9em;
+    /* padding-top: 9em; */
     font-weight: bold;
 }
 
@@ -89,8 +78,12 @@ justify-content: baseline;
     
 }
 
-.product img {
+.product {
     border: 1em black;
+}
+
+.product-img {
+    width: 250px;
 }
 
 .foot {
@@ -98,7 +91,53 @@ justify-content: baseline;
     padding: 3em;
     display: grid;
     align-content: stretch;
-    grid-template-columns: [first] 50% [line2] 900px [line3] auto [col4-start] 900px [five] 50% [end];
+    grid-template-columns: [first] 50% 50% [end];
     justify-content:;
+    text-align: center;
 }
 
+.foot div {
+    border: rgb(230, 217, 182);
+    border-spacing: 3em;
+    border-style: solid;
+    border-width: 0.2em;
+}
+
+
+@media (min-width:800px) {
+ 
+ #bg-image {
+    height: 700px;
+    width: 60%; }
+
+.intro {
+        padding-top: 3em;
+        padding-bottom: 3em; 
+        font-size: 1.5em;
+
+}
+
+
+
+body {
+    align-items: center;
+    padding-left: 13em;
+    padding-right: 13em;
+}
+
+h1 {
+    font-size: 3em;
+    color: ;
+    font-weight: bolder;
+}
+
+.product-img {
+  width: 300px;
+
+}
+
+.product-detail {
+
+}
+
+}
