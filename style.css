@@ -45,7 +45,9 @@ p {
 
 }
 
-
+.cart {
+    float: right;
+}
 
 .intro {
     padding-top: 2em;
@@ -100,7 +102,7 @@ align-content: flex-start;
 }
 
 .foot {
-    background-color: brown;
+    background-color: rgba(126, 36, 9, 0.877);
     padding: 2em;
     display: grid;
     align-content: stretch;
@@ -110,7 +112,7 @@ align-content: flex-start;
 }
 
 .foot div {
-    background: rgb(230, 217, 182);
+    background: rgb(231, 227, 196);
     border-spacing: 3em;
     border-style: solid;
     border-width: 0.2em;
@@ -127,7 +129,7 @@ align-content: flex-start;
     }
     .buy-product{
         display: grid;
-        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
 
@@ -142,23 +144,34 @@ align-content: flex-start;
         padding-top: 3em;
         padding-bottom: 3em; 
         font-size: 1.5em;
+        padding-left: 4em;
+        padding-right: 4em ;
 }
 
 body {
     align-items: center;
-    margin-left: 11em;
-    margin-right: 11em;
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 h1 {
     font-size: 3em;
     color: ;
     font-weight: bolder;
+    padding: 1.3em;
 }
 
 .creme {
   display: flex;
   justify-content: space-evenly;
+  /* margin-top: 10em;
+  margin-bottom: 10em; */
+  border: rgb(100, 96, 96);
+  border-left: rgb(245, 248, 245);
+  border-right: rgb(247, 248, 247);
+  border-style: ridge;
 }
 
 .product-img {
@@ -184,7 +197,17 @@ h1 {
     font-size: 1em;
 }
 
+.h2 {
+    padding: 4em
+}
 
+.foot {
+    padding: 10px;
+}
+
+h4 {
+    padding: 3em;
+}
 
 }
 
