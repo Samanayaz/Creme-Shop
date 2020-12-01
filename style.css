@@ -56,6 +56,7 @@ p {
     color: rgb(208, 234, 235);
     font-size: 1em;
     font-weight: bolder;
+    margin-bottom: 3em;
 }
 
 
@@ -64,6 +65,7 @@ p {
 display: grid;
 grid-template-columns:2fr 4fr ;
 align-content: flex-start;
+margin: 3em 0;
 
 }
 
@@ -102,25 +104,30 @@ align-content: flex-start;
 }
 
 .foot {
-    background-color: rgba(126, 36, 9, 0.877);
+    background-color: brown;
     padding: 2em;
     display: grid;
     align-content: stretch;
-    grid-template-columns: [first] 50% 50% [end];
-    justify-content:;
+    grid-template-columns: [first] 40% 50% 10%[end];
+    justify-content: flex-end;
     text-align: center;
+    margin-top: 4em;
 }
 
-.foot div {
-    background: rgb(231, 227, 196);
-    border-spacing: 3em;
-    border-style: solid;
-    border-width: 0.2em;
-    /* background-color: darkseagreen; */
+.footer{
+display: flex;
+gap: 2em;
+}
+.icons a {
+    color: whitesmoke;
+    padding: 1em;
+    float: right;
 }
 
-.foot div:hover{
+.foot div{
     color: cornsilk;
+    display: flex;
+    flex-flow: row;
 }
 
 @media(min-width:900px){
@@ -201,8 +208,8 @@ h1 {
     padding: 4em
 }
 
-.foot {
-    padding: 10px;
+.foot div {
+    display: flex;
 }
 
 h4 {
